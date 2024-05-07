@@ -23,11 +23,11 @@ public class boj1_2468 {
                 k = Integer.parseInt(st.nextToken());
                 map[i][j] = k;
                 if (max < k) max = k;
-
-
             }
         }
+
         flood = new boolean[N][N];
+
         int countMax = 0;
         for (int h = 0; h <= max; h++) {
             init();

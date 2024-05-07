@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] 11724번 그래프탐색">
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] dp(2468), binarySearch(1822)">
       <change afterPath="$PROJECT_DIR$/src/boj/study/week10/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week10/boj1_2468.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week10/boj2_1822.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week9/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week9/boj5_11725.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week9/tree/TreeArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/Good.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week11/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boj/study/week10/boj1_2468.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/study/week10/boj1_2468.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boj/study/week10/boj2_1822.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/study/week10/boj2_1822.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +72,13 @@
       <recent name="BOJ.loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj2_1822">
-    <configuration name="Good (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.Good" />
+  <component name="RunManager" selected="Application.boj1_14235">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week10.Main" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="boj.study.week10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Good (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.Good" />
+    <configuration name="boj1_14235" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week11.boj1_14235" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="boj.study.week11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj1_14235" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.boj2_1822" />
         <item itemvalue="Application.boj2_1822_time_error" />
         <item itemvalue="Application.boj1_2468" />
-        <item itemvalue="Application.Good (2)" />
-        <item itemvalue="Application.Good (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712730629958</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="[boj] dp(2468), binarySearch(1822)">
+      <created>1714401184082</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1714401184082</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,6 +432,7 @@
     <MESSAGE value="[코테스터디] DP" />
     <MESSAGE value="[코테스터디] DP(10826, 11722, 1149)" />
     <MESSAGE value="[boj] 11724번 그래프탐색" />
-    <option name="LAST_COMMIT_MESSAGE" value="[boj] 11724번 그래프탐색" />
+    <MESSAGE value="[boj] dp(2468), binarySearch(1822)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[boj] dp(2468), binarySearch(1822)" />
   </component>
 </project>

@@ -23,10 +23,14 @@ public class boj2_1822 {
         for (int i = 0; i < B; i++) {
             arrB[i] = Integer.parseInt(st.nextToken());
         }
+
         Arrays.sort(arrA);
         Arrays.sort(arrB);
+
         int count = 0;
+
         ArrayList<Integer> result = new ArrayList<>();
+
         for (int x : arrA) {
             if (!binarySearch(B, arrB, x)) {
                 count++;
