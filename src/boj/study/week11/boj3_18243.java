@@ -7,6 +7,7 @@ import java.util.StringTokenizer;
 // Small World Network
 public class boj3_18243 {
     static  int INF = Integer.MAX_VALUE/2;
+    // 오버플로우 날 수 있어서 /2
     static int N,M;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
