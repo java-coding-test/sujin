@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] PriorityQueue(boj_14235)">
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] dfs (15723)">
       <change afterPath="$PROJECT_DIR$/src/boj/study/week11/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -69,7 +69,7 @@
       <recent name="BOJ.loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj2_15723">
+  <component name="RunManager" selected="Application.boj3_18243">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.study.week10.Main" />
       <module name="CodingTest" />
@@ -122,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj2_1822_time_error" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week10.boj2_1822_time_error" />
+    <configuration name="boj3_18243" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week11.boj3_18243" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.study.week10.*" />
+          <option name="PATTERN" value="boj.study.week11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj3_18243" />
         <item itemvalue="Application.boj2_15723" />
         <item itemvalue="Application.boj1_14235" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.boj2_1822" />
-        <item itemvalue="Application.boj2_1822_time_error" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715074265121</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="[boj] dfs (15723)">
+      <created>1715149835549</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1715149835549</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,6 +445,7 @@
     <MESSAGE value="[boj] 11724번 그래프탐색" />
     <MESSAGE value="[boj] dp(2468), binarySearch(1822)" />
     <MESSAGE value="[boj] PriorityQueue(boj_14235)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[boj] PriorityQueue(boj_14235)" />
+    <MESSAGE value="[boj] dfs (15723)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[boj] dfs (15723)" />
   </component>
 </project>
