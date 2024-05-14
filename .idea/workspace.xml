@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] 최단거리 (1389)">
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week11/Main.java" afterDir="false" />
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] 그리디 (14916)">
       <change afterPath="$PROJECT_DIR$/src/boj/study/week12/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -70,13 +69,13 @@
       <recent name="BOJ.loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj1_14916">
-    <configuration name="boj1_14235" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week11.boj1_14235" />
+  <component name="RunManager" selected="Application.boj2_13301">
+    <configuration name="boj1_14916" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week12.boj1_14916" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.study.week11.*" />
+          <option name="PATTERN" value="boj.study.week12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj1_14916" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week12.boj1_14916" />
+    <configuration name="boj2_13301" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week12.boj2_13301" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj2_13301" />
         <item itemvalue="Application.boj1_14916" />
         <item itemvalue="Application.boj4_1389" />
         <item itemvalue="Application.boj3_18243" />
         <item itemvalue="Application.boj2_15723" />
-        <item itemvalue="Application.boj1_14235" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715232582114</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="[boj] 그리디 (14916)">
+      <created>1715661870665</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1715661870665</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,7 +442,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[백준]단계별 - 문자열" />
     <MESSAGE value="[백준]단계별 - 심화1" />
     <MESSAGE value="[코테스터디] 정렬 정리 1/2" />
     <MESSAGE value="[코테스터디] Week1 정렬 문제 풀이" />
@@ -461,6 +466,7 @@
     <MESSAGE value="[boj] dfs (15723)" />
     <MESSAGE value="[boj] 최단거리 (18243)" />
     <MESSAGE value="[boj] 최단거리 (1389)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[boj] 최단거리 (1389)" />
+    <MESSAGE value="[boj] 그리디 (14916)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[boj] 그리디 (14916)" />
   </component>
 </project>
