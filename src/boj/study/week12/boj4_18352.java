@@ -12,10 +12,12 @@ public class boj4_18352 {
         int M = Integer.parseInt(st.nextToken());
         int K = Integer.parseInt(st.nextToken());
         int X = Integer.parseInt(st.nextToken());
+
         List<Integer>[] edges = new List[N + 1];
         for (int i = 1; i < N + 1; i++) {
             edges[i] = new ArrayList<>();
         }
+
         int u, v;
         for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
@@ -23,6 +25,7 @@ public class boj4_18352 {
             v = Integer.parseInt(st.nextToken());
             edges[u].add(v);
         }
+
         int[] dist = new int[N + 1];
 
         Arrays.fill(dist, -1);
@@ -44,6 +47,7 @@ public class boj4_18352 {
                 q.add(next);
             }
         }
+        // 큐쓰는거 복습하기~~
 
         Collections.sort(answer);
         StringBuilder sb = new StringBuilder();
