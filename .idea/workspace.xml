@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] 다익스트라">
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] Union-Find">
       <change afterPath="$PROJECT_DIR$/src/boj/study/week13/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week13/Union_find.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,7 @@
       <recent name="BOJ.loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Union_find">
+  <component name="RunManager" selected="Application.boj.study.week13.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.study.week12.Main" />
       <module name="CodingTest" />
@@ -90,19 +89,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="boj.study.week13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj5_1584" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week12.boj5_1584" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.study.week12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,13 +135,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="boj.study.week13.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week13.Main" />
+      <module name="CodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boj.study.week13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj.study.week13.Main" />
         <item itemvalue="Application.Union_find" />
         <item itemvalue="Application.boj7_11657" />
         <item itemvalue="Application.boj7_11657" />
         <item itemvalue="Application.boj6_1058_error" />
-        <item itemvalue="Application.boj5_1584" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716452977088</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="[boj] Union-Find">
+      <created>1716855925893</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1716855925893</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -484,7 +490,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[코테스터디] Week2 정렬 문제 + 큐 문제" />
     <MESSAGE value="[코테스터디] Week2 큐 문제" />
     <MESSAGE value="[코테스터디] Week3 덱 문제" />
     <MESSAGE value="[코테스터디] Week3 이분 탐색 정리 &amp; 큐 문제" />
@@ -509,6 +514,7 @@
     <MESSAGE value="[boj] 다익스트라 (18352)" />
     <MESSAGE value="[boj] 다익스트라 (1584)" />
     <MESSAGE value="[boj] 다익스트라" />
-    <option name="LAST_COMMIT_MESSAGE" value="[boj] 다익스트라" />
+    <MESSAGE value="[boj] Union-Find" />
+    <option name="LAST_COMMIT_MESSAGE" value="[boj] Union-Find" />
   </component>
 </project>
