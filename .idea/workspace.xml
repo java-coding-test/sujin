@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] dp 9184">
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week14/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] week14">
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week15/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boj/study/week14/boj1_2740.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/study/week14/boj1_2740.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,26 +72,13 @@
       <recent name="BOJ.loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj5_1904">
+  <component name="RunManager" selected="Application.boj3_25501">
     <configuration name="boj1_2740" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.study.week14.boj1_2740" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="boj.study.week14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj2_1197" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week13.boj2_1197" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.study.week13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj3_1753" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week13.boj3_1753" />
+    <configuration name="boj3_25501" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week15.boj3_25501" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.study.week13.*" />
+          <option name="PATTERN" value="boj.study.week15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj3_25501" />
         <item itemvalue="Application.boj5_1904" />
         <item itemvalue="Application.boj1_2740" />
         <item itemvalue="Application.boj4_9184" />
         <item itemvalue="Application.boj2_2630" />
-        <item itemvalue="Application.boj3_1753" />
       </list>
     </recent_temporary>
   </component>
@@ -184,13 +169,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703147434791</updated>
-    </task>
-    <task id="LOCAL-00001" summary="[백준]단계별 - 조건문">
-      <created>1704288693855</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1704288693855</updated>
     </task>
     <task id="LOCAL-00002" summary="[백준]단계별 - 1차원 배열">
       <created>1704885513427</created>
@@ -528,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718853982507</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="[boj] week14">
+      <created>1719278226961</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1719278226961</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -543,7 +528,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[코테스터디] 분할정복, 이진 탐색" />
     <MESSAGE value="[코테스터디] DFS" />
     <MESSAGE value="[코테스터디] DFS &amp; BFS" />
     <MESSAGE value="[코테스터디] n-queen &amp; 그리디" />
@@ -568,7 +552,8 @@
     <MESSAGE value="[boj] Dijkstra (1753)" />
     <MESSAGE value="[boj]" />
     <MESSAGE value="[boj] dp 9184" />
-    <option name="LAST_COMMIT_MESSAGE" value="[boj] dp 9184" />
+    <MESSAGE value="[boj] week14" />
+    <option name="LAST_COMMIT_MESSAGE" value="[boj] week14" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
