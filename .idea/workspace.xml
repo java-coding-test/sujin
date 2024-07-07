@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] 재귀 24060">
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] SegmentTree 11505">
       <change afterPath="$PROJECT_DIR$/src/boj/study/week15/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week16/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week16/boj2_2268.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,13 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703147434791</updated>
-    </task>
-    <task id="LOCAL-00004" summary="[백준]단계별 - 문자열">
-      <created>1705065565797</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1705065565797</updated>
     </task>
     <task id="LOCAL-00005" summary="[백준]단계별 - 심화1">
       <created>1705121858123</created>
@@ -501,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719625739000</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="[boj] SegmentTree 11505">
+      <created>1720309047540</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1720309047540</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +516,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[코테스터디] n-queen &amp; 그리디" />
     <MESSAGE value="[코테스터디] 백트래킹 + 그리디" />
     <MESSAGE value="[코테스터디] 그리디" />
     <MESSAGE value="[코테스터디] DP" />
@@ -541,7 +540,8 @@
     <MESSAGE value="[boj] week14" />
     <MESSAGE value="[boj] 재귀 25501" />
     <MESSAGE value="[boj] 재귀 24060" />
-    <option name="LAST_COMMIT_MESSAGE" value="[boj] 재귀 24060" />
+    <MESSAGE value="[boj] SegmentTree 11505" />
+    <option name="LAST_COMMIT_MESSAGE" value="[boj] SegmentTree 11505" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
