@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] SegmentTree 2268">
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] 분할정복 10830">
       <change afterPath="$PROJECT_DIR$/src/boj/study/week15/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/boj/study/week16/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -73,7 +73,7 @@
       <recent name="BOJ.loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj3_10830">
+  <component name="RunManager" selected="Application.boj5_4779">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.study.week15.Main" />
       <module name="CodingTest" />
@@ -126,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj5_1904" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week14.boj5_1904" />
+    <configuration name="boj5_4779" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week16.boj5_4779" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.study.week14.*" />
+          <option name="PATTERN" value="boj.study.week16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj5_4779" />
         <item itemvalue="Application.boj3_10830" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.boj4_24060" />
         <item itemvalue="Application.boj3_25501" />
-        <item itemvalue="Application.boj5_1904" />
       </list>
     </recent_temporary>
   </component>
@@ -157,13 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703147434791</updated>
-    </task>
-    <task id="LOCAL-00006" summary="[백준]단계별 - 심화1">
-      <created>1706007000171</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1706007000171</updated>
     </task>
     <task id="LOCAL-00007" summary="[백준]단계별 - 심화1">
       <created>1706082507339</created>
@@ -501,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720349735015</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="[boj] 분할정복 10830">
+      <created>1720353429323</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1720353429323</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +516,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[코테스터디] 그리디" />
     <MESSAGE value="[코테스터디] DP" />
     <MESSAGE value="[코테스터디] DP(10826, 11722, 1149)" />
     <MESSAGE value="[boj] 11724번 그래프탐색" />
@@ -541,7 +540,8 @@
     <MESSAGE value="[boj] 재귀 24060" />
     <MESSAGE value="[boj] SegmentTree 11505" />
     <MESSAGE value="[boj] SegmentTree 2268" />
-    <option name="LAST_COMMIT_MESSAGE" value="[boj] SegmentTree 2268" />
+    <MESSAGE value="[boj] 분할정복 10830" />
+    <option name="LAST_COMMIT_MESSAGE" value="[boj] 분할정복 10830" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
