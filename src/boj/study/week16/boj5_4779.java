@@ -12,7 +12,7 @@ public class boj5_4779 {
         String str;
         StringBuilder sb;
 
-        while ((str = br.readLine()) != null) {  // 입력이 멈추면 멈춤!
+        while (!(str = br.readLine()).equals("")) {  // 입력이 멈추면 멈춤!
             N = Integer.parseInt(str);
             sb = new StringBuilder();
 
