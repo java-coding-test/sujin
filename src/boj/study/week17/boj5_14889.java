@@ -6,7 +6,6 @@ import java.util.StringTokenizer;
 public class boj5_14889 {
     static int N;
     static int[][] ability;
-    static int total = 0;
     static int diff = Integer.MAX_VALUE;
     static boolean[] visited;
     public static void main(String[] args) throws IOException {
