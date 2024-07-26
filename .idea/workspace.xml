@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] 14501(백트래킹)">
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] week18">
       <change afterPath="$PROJECT_DIR$/src/boj/study/week18/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week18/boj3_1927.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week18/boj4_14940.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boj/study/week18/boj2_14501.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/study/week18/boj2_14501.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boj/study/week18/boj4_14940.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/study/week18/boj4_14940.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,22 +54,23 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.boj2_17829.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sujinoh/projects/CodingTest/src/boj/study/week4&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.boj2_14501.executor": "Run",
+    "Application.boj2_17829.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sujinoh/projects/CodingTest/src/boj/study/week4",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/boj/study/week4" />
@@ -82,7 +83,7 @@
       <recent name="BOJ.loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj5_11582">
+  <component name="RunManager" selected="Application.boj2_14501">
     <configuration name="boj2_14501" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.study.week18.boj2_14501" />
       <module name="CodingTest" />
@@ -189,10 +190,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj2_14501" />
         <item itemvalue="Application.boj5_11582" />
         <item itemvalue="Application.boj4_14940" />
         <item itemvalue="Application.boj3_1927" />
-        <item itemvalue="Application.boj2_14501" />
         <item itemvalue="Application.boj5_14889" />
       </list>
     </recent_temporary>
@@ -549,7 +550,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721003466008</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -564,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[boj] dfs (15723)" />
     <MESSAGE value="[boj] 최단거리 (18243)" />
     <MESSAGE value="[boj] 최단거리 (1389)" />
     <MESSAGE value="[boj] 그리디 (14916)" />
@@ -589,7 +589,8 @@
     <MESSAGE value="[boj] 1446(다익스트라)" />
     <MESSAGE value="[boj] 14889(백트래킹)" />
     <MESSAGE value="[boj] 14501(백트래킹)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[boj] 14501(백트래킹)" />
+    <MESSAGE value="[boj] week18" />
+    <option name="LAST_COMMIT_MESSAGE" value="[boj] week18" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

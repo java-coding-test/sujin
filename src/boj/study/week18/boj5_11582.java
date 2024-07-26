@@ -28,7 +28,9 @@ public class boj5_11582 {
         for (int i = start; i < end; i++) {
             temp[i - start] = chicken[i];
         }
+
         Arrays.sort(temp);
+
         for (int i = 0; i < end - start; i++) {
             sb.append(temp[i]).append(" ");
         }

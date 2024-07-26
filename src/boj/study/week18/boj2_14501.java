@@ -6,15 +6,14 @@ import java.util.StringTokenizer;
 public class boj2_14501 {
     static int N;
     static int[][] consulting;
-    static double[] weighted;
     static int result;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         N = Integer.parseInt(br.readLine());
         consulting = new int[N][2];
-        weighted = new double[N];
 
         StringTokenizer st;
         for (int i = 0; i < N; i++) {
@@ -39,8 +38,6 @@ public class boj2_14501 {
         }
         if (idx + consulting[idx][0] <= N) {
             dfs(idx + consulting[idx][0], pay + consulting[idx][1]);
-        } else {
-            dfs(idx + consulting[idx][0], pay);
         }
 
         dfs(idx + 1, pay);

@@ -27,9 +27,14 @@ public class boj4_14940 {
         isVisited = new boolean[N][M];
 
         for (int i = 0; i < N; i++) {
-            map[i] = Arrays.stream(br.readLine().split(" "))
-                    .mapToInt(Integer::parseInt)
-                    .toArray();
+//            map[i] = Arrays.stream(br.readLine().split(" "))
+//                    .mapToInt(Integer::parseInt)
+//                    .toArray();
+            // 흥미돋이었던걸로
+            st = new StringTokenizer(br.readLine());
+            for (int j = 0; j < M; j++) {
+                map[i][j] = Integer.parseInt(st.nextToken());
+            }
             if (!isStartChecked) {
                 for (int j = 0; j < M; j++) {
                     if (map[i][j] == 2) {
@@ -41,6 +46,7 @@ public class boj4_14940 {
                 }
             }
         }
+
         bfs(startX, startY);
 
         for (int i = 0; i < N; i++) {
