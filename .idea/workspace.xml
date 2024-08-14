@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] week20 비트마스크">
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] week20 집합">
       <change afterPath="$PROJECT_DIR$/src/boj/study/week20/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -87,7 +87,7 @@
       <recent name="BOJ.loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj3_11723">
+  <component name="RunManager" selected="Application.boj4_11811">
     <configuration name="boj1_12813" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.study.week20.boj1_12813" />
       <module name="CodingTest" />
@@ -107,19 +107,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="boj.study.week20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj2_1620" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week19.boj2_1620" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.study.week19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,13 +140,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="boj4_11811" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week20.boj4_11811" />
+      <module name="CodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boj.study.week20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj4_11811" />
         <item itemvalue="Application.boj3_11723" />
         <item itemvalue="Application.boj2_3449" />
         <item itemvalue="Application.boj1_12813" />
         <item itemvalue="Application.boj1_12813_2" />
-        <item itemvalue="Application.boj2_1620" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,7 @@
       <workItem from="1723358159019" duration="3077000" />
       <workItem from="1723385151562" duration="627000" />
       <workItem from="1723508776863" duration="2497000" />
-      <workItem from="1723609691985" duration="2825000" />
+      <workItem from="1723609691985" duration="4233000" />
     </task>
     <task id="LOCAL-00009" summary="[코테스터디] 정렬 정리 1/2">
       <created>1706679792104</created>
@@ -527,7 +527,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721003466008</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[boj] 그리디 (14916)" />
     <MESSAGE value="[boj] dp (13301)" />
     <MESSAGE value="[boj] 다익스트라 (18352)" />
     <MESSAGE value="[boj] 다익스트라 (1584)" />
@@ -570,7 +569,8 @@
     <MESSAGE value="[boj] week18" />
     <MESSAGE value="[boj] week19" />
     <MESSAGE value="[boj] week20 비트마스크" />
-    <option name="LAST_COMMIT_MESSAGE" value="[boj] week20 비트마스크" />
+    <MESSAGE value="[boj] week20 집합" />
+    <option name="LAST_COMMIT_MESSAGE" value="[boj] week20 집합" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
