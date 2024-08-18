@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] week20 비트마스크">
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week20/Main.java" afterDir="false" />
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] week20 bfs">
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week20/boj6_13549_jy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,29 +52,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.boj2_14501.executor&quot;: &quot;Run&quot;,
-    &quot;Application.boj2_17829.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sujinoh/projects/CodingTest/src/boj/study/week4&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.boj1_1182.executor": "Run",
+    "Application.boj2_14501.executor": "Run",
+    "Application.boj2_17829.executor": "Run",
+    "Application.boj6_13549_jy.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sujinoh/projects/CodingTest/src/boj/study/week4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.build",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/boj/study/week4" />
@@ -87,26 +89,13 @@
       <recent name="BOJ.loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj5_13549">
+  <component name="RunManager" selected="Application.boj6_13549_jy">
     <configuration name="boj1_1182" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.study.week8.boj1_1182" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="boj.study.week8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj2_3449" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week20.boj2_3449" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.study.week20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,13 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="boj6_13549_jy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week20.boj6_13549_jy" />
+      <module name="CodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boj.study.week20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj6_13549_jy" />
         <item itemvalue="Application.boj5_13549" />
         <item itemvalue="Application.boj1_1182" />
         <item itemvalue="Application.boj4_11811" />
         <item itemvalue="Application.boj3_11723" />
-        <item itemvalue="Application.boj2_3449" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +185,8 @@
       <workItem from="1723385151562" duration="627000" />
       <workItem from="1723508776863" duration="2497000" />
       <workItem from="1723609691985" duration="5225000" />
-      <workItem from="1723954503741" duration="1693000" />
+      <workItem from="1723954503741" duration="1859000" />
+      <workItem from="1723963671616" duration="7276000" />
     </task>
     <task id="LOCAL-00009" summary="[코테스터디] 정렬 정리 1/2">
       <created>1706679792104</created>
@@ -528,7 +531,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721003466008</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[boj] dp (13301)" />
     <MESSAGE value="[boj] 다익스트라 (18352)" />
     <MESSAGE value="[boj] 다익스트라 (1584)" />
     <MESSAGE value="[boj] 다익스트라" />
@@ -571,7 +573,8 @@
     <MESSAGE value="[boj] week19" />
     <MESSAGE value="[boj] week20 집합" />
     <MESSAGE value="[boj] week20 비트마스크" />
-    <option name="LAST_COMMIT_MESSAGE" value="[boj] week20 비트마스크" />
+    <MESSAGE value="[boj] week20 bfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="[boj] week20 bfs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
