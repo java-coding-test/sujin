@@ -15,6 +15,7 @@ public class boj1_13913 {
         K = Integer.parseInt(st.nextToken());
         Arrays.fill(root, -1);
 
+
         bw.write(bfs() + "\n");
         bw.write(printRoot());
         bw.close();
