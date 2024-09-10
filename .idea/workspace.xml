@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] 다익스트라 (1261)">
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] 다익스트라">
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week22/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boj/step_by_step/array_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/step_by_step/array_2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,6 @@
     "Application.Main (2).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.StudyBFS.executor": "Run",
-    "Application.boj.step_by_step.array_2.Main.executor": "Run",
     "Application.boj.study.week22.Main.executor": "Run",
     "Application.boj1_1182.executor": "Run",
     "Application.boj2_14501.executor": "Run",
@@ -96,7 +95,7 @@
       <recent name="BOJ.loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj.step_by_step.array_2.Main">
+  <component name="RunManager" selected="Application.boj1_1261">
     <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.study.week21.Dijkstra" />
       <module name="CodingTest" />
@@ -136,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj3_1504" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week21.boj3_1504" />
+    <configuration name="boj2_12851" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week21.boj2_12851" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
@@ -162,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj.step_by_step.array_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.array_2.Main" />
+    <configuration name="boj3_1504" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week21.boj3_1504" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.step_by_step.array_2.*" />
+          <option name="PATTERN" value="boj.study.week21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.boj.step_by_step.array_2.Main" />
         <item itemvalue="Application.boj1_1261" />
         <item itemvalue="Application.boj3_1504" />
         <item itemvalue="Application.boj3_1504" />
         <item itemvalue="Application.Dijkstra" />
+        <item itemvalue="Application.boj2_12851" />
       </list>
     </recent_temporary>
   </component>
@@ -210,8 +209,7 @@
       <workItem from="1724114245342" duration="4417000" />
       <workItem from="1724296676353" duration="6562000" />
       <workItem from="1725586655400" duration="6165000" />
-      <workItem from="1725784247065" duration="6469000" />
-      <workItem from="1725957555077" duration="678000" />
+      <workItem from="1725784247065" duration="6270000" />
     </task>
     <task id="LOCAL-00009" summary="[코테스터디] 정렬 정리 1/2">
       <created>1706679792104</created>
@@ -556,7 +554,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721003466008</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,6 +572,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="[boj] 다익스트라 (1584)" />
     <MESSAGE value="[boj] Union-Find" />
     <MESSAGE value="[boj] Union-Find (1717)" />
     <MESSAGE value="[boj] Kruskal Algorithm (1197)" />
@@ -598,8 +597,7 @@
     <MESSAGE value="[boj] week20 bfs" />
     <MESSAGE value="[boj] week21 bfs" />
     <MESSAGE value="[boj] 다익스트라" />
-    <MESSAGE value="[boj] 다익스트라 (1261)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[boj] 다익스트라 (1261)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[boj] 다익스트라" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
