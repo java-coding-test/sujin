@@ -5,24 +5,32 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Main {
+    static int N, M;
+    static int[][] arr;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        String str = br.readLine();
-        StringTokenizer st = new StringTokenizer(str);
-        int N = Integer.parseInt(st.nextToken());
-        int M = Integer.parseInt(st.nextToken());
-        int[][] arrA = new int[N][M];
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        N = Integer.parseInt(st.nextToken());
+        M = Integer.parseInt(st.nextToken());
+        arr = new int[N][M];
         for (int i = 0; i < N; i++) {
+            st = new StringTokenizer(br.readLine());
             for (int j = 0; j < M; j++) {
-                st = new StringTokenizer(br.readLine());
-
+                arr[i][j] = Integer.parseInt(st.nextToken());
             }
         }
+
+        for (int i = 0; i < N; i++) {
+            st = new StringTokenizer(br.readLine());
+            for (int j = 0; j < M; j++) {
+                bw.write(Integer.parseInt(st.nextToken()) + arr[i][j] + " ");
+            }
+            bw.write("\n");
+        }
+        bw.close();
     }
-
-
 
 }
 
