@@ -36,13 +36,13 @@ public class boj1_1261 {
     }
 
     public static void dijkstra() {
-        PriorityQueue<Node> pq = new PriorityQueue<>();
-        pq.offer(new Node(1, 1, 0));
+        PriorityQueue<Node_1261> pq = new PriorityQueue<>();
+        pq.offer(new Node_1261(1, 1, 0));
         dist[1][1] = 0;
 
         int x, y;
         while (!pq.isEmpty()) {
-            Node current = pq.poll();
+            Node_1261 current = pq.poll();
             x = current.x;
             y = current.y;
             if (x == M && y == N) break;
@@ -55,17 +55,17 @@ public class boj1_1261 {
                 int newDist = dist[x][y] + graph[nx][ny];
                 if (newDist < dist[nx][ny]) {
                     dist[nx][ny] = newDist;
-                    pq.offer(new Node(nx, ny, newDist));
+                    pq.offer(new Node_1261(nx, ny, newDist));
                 }
             }
         }
     }
 }
 
-class Node implements Comparable<Node> {
+class Node_1261 implements Comparable<Node_1261> {
     int x, y, cost;
 
-    public Node(int x, int y, int cost) {
+    public Node_1261(int x, int y, int cost) {
         this.x = x;
         this.y = y;
         this.cost = cost;
@@ -73,7 +73,7 @@ class Node implements Comparable<Node> {
 
 
     @Override
-    public int compareTo(Node o) {
+    public int compareTo(Node_1261 o) {
         return Integer.compare(this.cost, o.cost);
     }
 }

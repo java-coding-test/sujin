@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] 다익스트라">
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[boj] 2차원배열">
+      <change afterPath="$PROJECT_DIR$/docs/알고리즘 정리/최단경로/플로이드=워셜.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/boj/study/week22/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week22/boj2_11779.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/알고리즘 정리/다익스트라.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/알고리즘 정리/최단경로/다익스트라.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boj/step_by_step/array_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/step_by_step/array_2/boj_2738.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boj/study/week22/boj1_1261.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/study/week22/boj1_1261.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +64,7 @@
     "Application.Main (2).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.StudyBFS.executor": "Run",
-    "Application.boj.study.week22.Main.executor": "Run",
+    "Application.boj.study.week22.Main.executor": "Debug",
     "Application.boj1_1182.executor": "Run",
     "Application.boj2_14501.executor": "Run",
     "Application.boj2_17829.executor": "Run",
@@ -85,6 +90,7 @@
       <recent name="$PROJECT_DIR$/src/boj/study/week4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/알고리즘 정리/최단경로" />
       <recent name="$PROJECT_DIR$/docs/알고리즘 정리" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -95,20 +101,7 @@
       <recent name="BOJ.loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj1_1261">
-    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week21.Dijkstra" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.study.week21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.boj3_11404">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.study.week21.Main" />
       <module name="CodingTest" />
@@ -135,12 +128,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj2_12851" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week21.boj2_12851" />
+    <configuration name="boj2_11779" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week22.boj2_11779" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.study.week21.*" />
+          <option name="PATTERN" value="boj.study.week22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boj3_11404" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week22.boj3_11404" />
+      <module name="CodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boj.study.week22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj3_11404" />
+        <item itemvalue="Application.boj2_11779" />
         <item itemvalue="Application.boj1_1261" />
         <item itemvalue="Application.boj3_1504" />
         <item itemvalue="Application.boj3_1504" />
-        <item itemvalue="Application.Dijkstra" />
-        <item itemvalue="Application.boj2_12851" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +216,7 @@
       <workItem from="1724296676353" duration="6562000" />
       <workItem from="1725586655400" duration="6165000" />
       <workItem from="1725784247065" duration="6270000" />
+      <workItem from="1726017213615" duration="6204000" />
     </task>
     <task id="LOCAL-00009" summary="[코테스터디] 정렬 정리 1/2">
       <created>1706679792104</created>

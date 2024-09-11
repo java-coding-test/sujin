@@ -1,10 +1,9 @@
 package boj.step_by_step.array_2;
 
 import java.io.*;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main {
+public class boj_2738 {
     static int N, M;
     static int[][] arr;
     public static void main(String[] args) throws IOException {
