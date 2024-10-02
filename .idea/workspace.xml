@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="implementation">
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/greedy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/greedy/boj_11399.java" afterDir="false" />
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="greedy">
+      <change afterPath="$PROJECT_DIR$/docs/알고리즘 정리/DP/DP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/알고리즘 정리/DP/최장공통수열(LCS).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/dp/BottomUpDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/dp/LCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/dp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/dp/TopDownDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/dp/boj_1463.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/implementation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/implementation/boj_14891_error.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/implementation/boj_2960.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,57 +61,62 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Dijkstra.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudyBFS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.boj.study.week22.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.boj1_1182.executor&quot;: &quot;Run&quot;,
-    &quot;Application.boj2_14501.executor&quot;: &quot;Run&quot;,
-    &quot;Application.boj2_17829.executor&quot;: &quot;Run&quot;,
-    &quot;Application.boj6_13549_jy.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sujinoh/projects/CodingTest/src/boj/study/week4&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BottomUpDP.executor": "Run",
+    "Application.Dijkstra.executor": "Run",
+    "Application.LCS.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.StudyBFS.executor": "Run",
+    "Application.TopDownDP.executor": "Run",
+    "Application.boj.step_by_step.dp.Main.executor": "Run",
+    "Application.boj.study.week22.Main.executor": "Run",
+    "Application.boj1_1182.executor": "Run",
+    "Application.boj2_14501.executor": "Run",
+    "Application.boj2_17829.executor": "Run",
+    "Application.boj6_13549_jy.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sujinoh/projects/CodingTest/src/boj/study/week4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/boj/study/week4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/알고리즘 정리/DP" />
       <recent name="$PROJECT_DIR$/docs/알고리즘 정리/최단경로" />
       <recent name="$PROJECT_DIR$/docs/알고리즘 정리" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="boj.step_by_step.implementation" />
       <recent name="boj.study.week7" />
       <recent name="boj.study.week4" />
       <recent name="boj.study.week1" />
       <recent name="boj.silver" />
-      <recent name="BOJ.loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj_1931">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.greedy.Main" />
+  <component name="RunManager" selected="Application.boj.step_by_step.dp.Main">
+    <configuration name="BottomUpDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.dp.BottomUpDP" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.step_by_step.greedy.*" />
+          <option name="PATTERN" value="boj.step_by_step.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_11399" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.greedy.boj_11399" />
+    <configuration name="LCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.dp.LCS" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.step_by_step.greedy.*" />
+          <option name="PATTERN" value="boj.step_by_step.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +137,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_1913" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.implementation.boj_1913" />
+    <configuration name="TopDownDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.dp.TopDownDP" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.step_by_step.implementation.*" />
+          <option name="PATTERN" value="boj.step_by_step.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boj_1463" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.dp.boj_1463" />
+      <module name="CodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boj.step_by_step.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,25 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_1931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.greedy.boj_1931" />
+    <configuration name="boj.step_by_step.dp.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.dp.Main" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.step_by_step.greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj_2980" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.implementation.boj_2980" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.step_by_step.implementation.*" />
+          <option name="PATTERN" value="boj.step_by_step.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.boj_1931" />
-        <item itemvalue="Application.boj_1931" />
-        <item itemvalue="Application.boj_11399" />
-        <item itemvalue="Application.boj_1913" />
-        <item itemvalue="Application.boj_2980" />
+        <item itemvalue="Application.boj.step_by_step.dp.Main" />
+        <item itemvalue="Application.boj_1463" />
+        <item itemvalue="Application.LCS" />
+        <item itemvalue="Application.BottomUpDP" />
+        <item itemvalue="Application.TopDownDP" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +230,8 @@
       <workItem from="1726208103855" duration="3671000" />
       <workItem from="1727245867489" duration="672000" />
       <workItem from="1727762926570" duration="10968000" />
-      <workItem from="1727833593494" duration="1881000" />
+      <workItem from="1727833593494" duration="9608000" />
+      <workItem from="1727856687764" duration="4211000" />
     </task>
     <task id="LOCAL-00009" summary="[코테스터디] 정렬 정리 1/2">
       <created>1706679792104</created>
@@ -562,7 +576,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721003466008</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,7 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[boj] Dijkstra (1753)" />
     <MESSAGE value="[boj]" />
     <MESSAGE value="[boj] dp 9184" />
     <MESSAGE value="[boj] week14" />
@@ -605,7 +618,8 @@
     <MESSAGE value="typo: 파일명 수정" />
     <MESSAGE value="[week22] 벨만포드, BFS" />
     <MESSAGE value="implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementation" />
+    <MESSAGE value="greedy" />
+    <option name="LAST_COMMIT_MESSAGE" value="greedy" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
