@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="[week22] 벨만포드, BFS">
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/implementation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/implementation/boj_1018.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/implementation/boj_2231.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/implementation/boj_2980.java" afterDir="false" />
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="implementation">
+      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/greedy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/greedy/boj_11399.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,13 +97,13 @@
       <recent name="BOJ.loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj_1913">
-    <configuration name="boj5_1926" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week22.boj5_1926" />
+  <component name="RunManager" selected="Application.boj_1931">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.greedy.Main" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.study.week22.*" />
+          <option name="PATTERN" value="boj.step_by_step.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_1018" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.implementation.boj_1018" />
+    <configuration name="boj_11399" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.greedy.boj_11399" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.step_by_step.implementation.*" />
+          <option name="PATTERN" value="boj.step_by_step.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +137,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2231" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.implementation.boj_2231" />
+    <configuration name="boj_1931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.greedy.boj_1931" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.step_by_step.implementation.*" />
+          <option name="PATTERN" value="boj.step_by_step.greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boj_1931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.greedy.boj_1931" />
+      <module name="CodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boj.step_by_step.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_1931" />
+        <item itemvalue="Application.boj_1931" />
+        <item itemvalue="Application.boj_11399" />
         <item itemvalue="Application.boj_1913" />
         <item itemvalue="Application.boj_2980" />
-        <item itemvalue="Application.boj_2231" />
-        <item itemvalue="Application.boj_1018" />
-        <item itemvalue="Application.boj5_1926" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +216,8 @@
       <workItem from="1726195125882" duration="4933000" />
       <workItem from="1726208103855" duration="3671000" />
       <workItem from="1727245867489" duration="672000" />
-      <workItem from="1727762926570" duration="10724000" />
+      <workItem from="1727762926570" duration="10968000" />
+      <workItem from="1727833593494" duration="1881000" />
     </task>
     <task id="LOCAL-00009" summary="[코테스터디] 정렬 정리 1/2">
       <created>1706679792104</created>
@@ -550,7 +562,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721003466008</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,7 +580,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[boj] Kruskal Algorithm (1197)" />
     <MESSAGE value="[boj] Dijkstra (1753)" />
     <MESSAGE value="[boj]" />
     <MESSAGE value="[boj] dp 9184" />
@@ -593,7 +604,8 @@
     <MESSAGE value="[boj] week22 최단 경로 (다익스트라, 플로이드)" />
     <MESSAGE value="typo: 파일명 수정" />
     <MESSAGE value="[week22] 벨만포드, BFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="[week22] 벨만포드, BFS" />
+    <MESSAGE value="implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
