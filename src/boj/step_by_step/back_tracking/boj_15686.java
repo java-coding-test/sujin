@@ -3,7 +3,7 @@ package boj.step_by_step.back_tracking;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class boj_15686 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
@@ -15,8 +15,8 @@ public class Main {
     static int total;
     static int cost;
 
-    static ArrayList<Point> chicken = new ArrayList<>();
-    static ArrayList<Point> house = new ArrayList<>();
+    static ArrayList<Point_15686> chicken = new ArrayList<>();
+    static ArrayList<Point_15686> house = new ArrayList<>();
     static boolean[] visited;
     public static void main(String[] args) throws IOException{
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -34,9 +34,9 @@ public class Main {
                 int num = Integer.parseInt(st.nextToken());
                 city[i][j] = num;
                 if (num == 1) {
-                    house.add(new Point(j, i));
+                    house.add(new Point_15686(j, i));
                 } else if (num == 2) {
-                    chicken.add(new Point(j, i));
+                    chicken.add(new Point_15686(j, i));
                 }
             }
         }
@@ -55,7 +55,7 @@ public class Main {
                 return;
             }
         }
-        Point currentChicken, currentHouse;
+        Point_15686 currentChicken, currentHouse;
         for (int i = 0; i < chicken.size(); i++) {
             currentChicken = chicken.get(i);
 //            System.out.println("---- chicken-----\n("+ currentChicken.x + ", " + currentChicken.y + ")");
@@ -81,9 +81,9 @@ public class Main {
         }
     }
 }
-class Point {
+class Point_15686 {
     int x, y;
-    public Point(int x, int y) {
+    public Point_15686(int x, int y) {
         this.x = x;
         this.y = y;
     }

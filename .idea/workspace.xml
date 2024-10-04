@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="implementation">
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/back_tracking/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/back_tracking/boj_15649.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/back_tracking/boj_15650.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/back_tracking/boj_15651.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/back_tracking/boj_15652.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/back_tracking/boj_15654.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/bfs/boj_2178.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/implementation/snail.java" afterDir="false" />
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="백트래킹, 달팽이, bfs">
+      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/back_tracking/boj_15686.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boj/step_by_step/back_tracking/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/step_by_step/back_tracking/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,33 +104,7 @@
       <recent name="boj.silver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj_2178">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.back_tracking.Main" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.step_by_step.back_tracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj_15651" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.back_tracking.boj_15651" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.step_by_step.back_tracking.boj_15651" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.boj_9663">
     <configuration name="boj_15652" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.step_by_step.back_tracking.boj_15652" />
       <module name="CodingTest" />
@@ -163,6 +131,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="boj_15686" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.back_tracking.boj_15686" />
+      <module name="CodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boj.step_by_step.back_tracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="boj_2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.step_by_step.bfs.boj_2178" />
       <module name="CodingTest" />
@@ -176,13 +157,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="boj_9663" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.back_tracking.boj_9663" />
+      <module name="CodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boj.step_by_step.back_tracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_9663" />
         <item itemvalue="Application.boj_2178" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.boj_15686" />
         <item itemvalue="Application.boj_15654" />
         <item itemvalue="Application.boj_15652" />
-        <item itemvalue="Application.boj_15651" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +213,7 @@
       <workItem from="1727762926570" duration="10968000" />
       <workItem from="1727833593494" duration="9608000" />
       <workItem from="1727856687764" duration="4321000" />
-      <workItem from="1727927152140" duration="21529000" />
+      <workItem from="1727927152140" duration="22833000" />
     </task>
     <task id="LOCAL-00009" summary="[코테스터디] 정렬 정리 1/2">
       <created>1706679792104</created>
@@ -564,7 +558,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721003466008</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[boj] dp 9184" />
     <MESSAGE value="[boj] week14" />
     <MESSAGE value="[boj] 재귀 25501" />
     <MESSAGE value="[boj] 재귀 24060" />
@@ -607,7 +600,8 @@
     <MESSAGE value="greedy" />
     <MESSAGE value="DP" />
     <MESSAGE value="implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementation" />
+    <MESSAGE value="백트래킹, 달팽이, bfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="백트래킹, 달팽이, bfs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
