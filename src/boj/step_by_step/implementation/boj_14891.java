@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 
-public class Main {
+public class boj_14891 {
 
     static int[][] wheels = new int[4][8];
     static int K;
