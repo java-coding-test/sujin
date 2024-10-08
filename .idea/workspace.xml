@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="백트래킹, 달팽이, bfs">
-      <change afterPath="$PROJECT_DIR$/src/boj/step_by_step/back_tracking/boj_15686.java" afterDir="false" />
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="백트래킹">
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week23/boj1_15654.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week23/boj2_6603.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boj/step_by_step/back_tracking/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/step_by_step/back_tracking/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boj/step_by_step/dp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/step_by_step/dp/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +67,7 @@
     "Application.boj.step_by_step.bfs.Main.executor": "Run",
     "Application.boj.step_by_step.dp.Main.executor": "Run",
     "Application.boj.study.week22.Main.executor": "Run",
+    "Application.boj.study.week23.Main.executor": "Run",
     "Application.boj1_1182.executor": "Run",
     "Application.boj2_14501.executor": "Run",
     "Application.boj2_17829.executor": "Run",
@@ -104,13 +106,13 @@
       <recent name="boj.silver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj_9663">
-    <configuration name="boj_15652" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.back_tracking.boj_15652" />
+  <component name="RunManager" selected="Application.boj2_6603">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.dp.Main" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.step_by_step.back_tracking.*" />
+          <option name="PATTERN" value="boj.step_by_step.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_15654" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.back_tracking.boj_15654" />
+    <configuration name="boj1_15654" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week23.boj1_15654" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.step_by_step.back_tracking.*" />
+          <option name="PATTERN" value="boj.study.week23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_15686" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.back_tracking.boj_15686" />
+    <configuration name="boj2_6603" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week23.boj2_6603" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.step_by_step.back_tracking.*" />
+          <option name="PATTERN" value="boj.study.week23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj2_6603" />
+        <item itemvalue="Application.boj1_15654" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.boj_9663" />
         <item itemvalue="Application.boj_2178" />
-        <item itemvalue="Application.boj_15686" />
-        <item itemvalue="Application.boj_15654" />
-        <item itemvalue="Application.boj_15652" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +215,10 @@
       <workItem from="1727762926570" duration="10968000" />
       <workItem from="1727833593494" duration="9608000" />
       <workItem from="1727856687764" duration="4321000" />
-      <workItem from="1727927152140" duration="22833000" />
+      <workItem from="1727927152140" duration="25827000" />
+      <workItem from="1728130898324" duration="2284000" />
+      <workItem from="1728185247498" duration="491000" />
+      <workItem from="1728374862171" duration="3829000" />
     </task>
     <task id="LOCAL-00009" summary="[코테스터디] 정렬 정리 1/2">
       <created>1706679792104</created>
@@ -558,7 +563,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721003466008</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +581,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[boj] week14" />
     <MESSAGE value="[boj] 재귀 25501" />
     <MESSAGE value="[boj] 재귀 24060" />
     <MESSAGE value="[boj] SegmentTree 11505" />
@@ -601,7 +605,8 @@
     <MESSAGE value="DP" />
     <MESSAGE value="implementation" />
     <MESSAGE value="백트래킹, 달팽이, bfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="백트래킹, 달팽이, bfs" />
+    <MESSAGE value="백트래킹" />
+    <option name="LAST_COMMIT_MESSAGE" value="백트래킹" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -5,23 +5,30 @@ import java.util.StringTokenizer;
 
 public class Main {
     static int N;
-    static int[] A;
+    static int[] stairs;
+
     static int[] dp;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         N = Integer.parseInt(br.readLine());
-        A = new int[N];
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        for (int i = 0; i < N; i++) {
-            A[i] = Integer.parseInt(st.nextToken());
-            System.out.println(A[i]);
+        stairs = new int[N + 1];
+        for (int i = 1; i <= N; i++) {
+            stairs[i] = Integer.parseInt(br.readLine());
         }
 
-        dp = new int[N];
+        dp = new int[N + 1];
+        dp[1] = stairs[1];
+        if (N >= 2) dp[2] = stairs[1] + stairs[2];
+        if (N >= 3) {
+            dp[3]  = Math.max(stairs[1] + stairs[3], stairs[2] + stairs[3]);
+        }
+        for (int i = 4; i <= N; i++) {
+            dp[i] = Math.max(dp[i - 3] + stairs[i - 1], dp[i - 2]) + stairs[i];
+        }
 
-
-
+        bw.write(dp[N] + "");
+        bw.close();
     }
 }
