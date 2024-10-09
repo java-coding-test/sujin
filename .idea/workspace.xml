@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="dfs">
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week23/boj3_4485_bfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week23/boj3_4485_dfs_시간초과.java" afterDir="false" />
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="dfs, bfs">
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week23/boj4_2343.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/알고리즘 정리/최단경로/다익스트라.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/알고리즘 정리/최단경로/다익스트라.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,20 +104,7 @@
       <recent name="boj.silver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj3_4485_bfs">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.dp.Main" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.step_by_step.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.boj4_2343">
     <configuration name="boj1_15654" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.study.week23.boj1_15654" />
       <module name="CodingTest" />
@@ -172,13 +157,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="boj4_2343" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week23.boj4_2343" />
+      <module name="CodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boj.study.week23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj4_2343" />
         <item itemvalue="Application.boj3_4485_bfs" />
         <item itemvalue="Application.boj3_4485_dfs_시간초과" />
         <item itemvalue="Application.boj2_6603" />
         <item itemvalue="Application.boj1_15654" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +218,8 @@
       <workItem from="1728185247498" duration="491000" />
       <workItem from="1728374862171" duration="3966000" />
       <workItem from="1728438395885" duration="2109000" />
-      <workItem from="1728440512300" duration="3229000" />
+      <workItem from="1728440512300" duration="3249000" />
+      <workItem from="1728478845763" duration="4335000" />
     </task>
     <task id="LOCAL-00009" summary="[코테스터디] 정렬 정리 1/2">
       <created>1706679792104</created>
@@ -565,7 +564,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721003466008</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[boj] 재귀 24060" />
     <MESSAGE value="[boj] SegmentTree 11505" />
     <MESSAGE value="[boj] SegmentTree 2268" />
     <MESSAGE value="[boj] 분할정복 10830" />
@@ -608,7 +606,8 @@
     <MESSAGE value="백트래킹, 달팽이, bfs" />
     <MESSAGE value="백트래킹" />
     <MESSAGE value="dfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="dfs" />
+    <MESSAGE value="dfs, bfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfs, bfs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
