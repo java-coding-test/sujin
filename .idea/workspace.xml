@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="백트래킹">
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week23/boj1_15654.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week23/boj2_6603.java" afterDir="false" />
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="dfs">
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week23/boj3_4485_bfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week23/boj3_4485_dfs_시간초과.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boj/step_by_step/dp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/step_by_step/dp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/알고리즘 정리/최단경로/다익스트라.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/알고리즘 정리/최단경로/다익스트라.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,41 +54,41 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BottomUpDP.executor": "Run",
-    "Application.Dijkstra.executor": "Run",
-    "Application.LCS.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main (2).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.StudyBFS.executor": "Run",
-    "Application.TopDownDP.executor": "Run",
-    "Application.boj.step_by_step.bfs.Main.executor": "Run",
-    "Application.boj.step_by_step.dp.Main.executor": "Run",
-    "Application.boj.study.week22.Main.executor": "Run",
-    "Application.boj.study.week23.Main.executor": "Run",
-    "Application.boj1_1182.executor": "Run",
-    "Application.boj2_14501.executor": "Run",
-    "Application.boj2_17829.executor": "Run",
-    "Application.boj6_13549_jy.executor": "Run",
-    "Application.snail.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/sujinoh/projects/CodingTest/src/boj/study/week4",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BottomUpDP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dijkstra.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LCS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudyBFS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TopDownDP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.boj.step_by_step.bfs.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.boj.step_by_step.dp.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.boj.study.week22.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.boj.study.week23.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.boj1_1182.executor&quot;: &quot;Run&quot;,
+    &quot;Application.boj2_14501.executor&quot;: &quot;Run&quot;,
+    &quot;Application.boj2_17829.executor&quot;: &quot;Run&quot;,
+    &quot;Application.boj6_13549_jy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.snail.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sujinoh/projects/CodingTest/src/boj/study/week4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/boj/study/week4" />
@@ -106,7 +106,7 @@
       <recent name="boj.silver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj2_6603">
+  <component name="RunManager" selected="Application.boj3_4485_bfs">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.step_by_step.dp.Main" />
       <module name="CodingTest" />
@@ -146,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.bfs.boj_2178" />
+    <configuration name="boj3_4485_bfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week23.boj3_4485_bfs" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.step_by_step.bfs.*" />
+          <option name="PATTERN" value="boj.study.week23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_9663" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.step_by_step.back_tracking.boj_9663" />
+    <configuration name="boj3_4485_dfs_시간초과" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week23.boj3_4485_dfs_시간초과" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.step_by_step.back_tracking.*" />
+          <option name="PATTERN" value="boj.study.week23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj3_4485_bfs" />
+        <item itemvalue="Application.boj3_4485_dfs_시간초과" />
         <item itemvalue="Application.boj2_6603" />
         <item itemvalue="Application.boj1_15654" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.boj_9663" />
-        <item itemvalue="Application.boj_2178" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +218,9 @@
       <workItem from="1727927152140" duration="25827000" />
       <workItem from="1728130898324" duration="2284000" />
       <workItem from="1728185247498" duration="491000" />
-      <workItem from="1728374862171" duration="3829000" />
+      <workItem from="1728374862171" duration="3966000" />
+      <workItem from="1728438395885" duration="2109000" />
+      <workItem from="1728440512300" duration="3229000" />
     </task>
     <task id="LOCAL-00009" summary="[코테스터디] 정렬 정리 1/2">
       <created>1706679792104</created>
@@ -563,7 +565,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721003466008</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[boj] 재귀 25501" />
     <MESSAGE value="[boj] 재귀 24060" />
     <MESSAGE value="[boj] SegmentTree 11505" />
     <MESSAGE value="[boj] SegmentTree 2268" />
@@ -606,7 +607,8 @@
     <MESSAGE value="implementation" />
     <MESSAGE value="백트래킹, 달팽이, bfs" />
     <MESSAGE value="백트래킹" />
-    <option name="LAST_COMMIT_MESSAGE" value="백트래킹" />
+    <MESSAGE value="dfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
