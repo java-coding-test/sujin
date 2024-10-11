@@ -48,6 +48,7 @@ public class boj2_6603 {
             return;
         }
 
+        // count 로 시작하는 이유 순서 변경되는 것은 고려하지 않기 위해
         for (int i = count; i < K; i++) {
             if (answer.contains(num[i])) {
                 continue;
