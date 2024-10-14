@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="그리디">
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="study 주석 추가">
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week24/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week24/boj7_2003.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boj/study/week23/boj2_6603.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/study/week23/boj2_6603.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boj/study/week23/boj5_2302.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/study/week23/boj5_2302.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,35 +107,9 @@
       <recent name="boj.silver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj2_6603">
+  <component name="RunManager" selected="Application.boj8_3273">
     <configuration name="boj2_6603" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.study.week23.boj2_6603" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.study.week23.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj3_4485_bfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week23.boj3_4485_bfs" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.study.week23.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj4_2343" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week23.boj4_2343" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
@@ -173,13 +147,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="boj7_2003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week24.boj7_2003" />
+      <module name="CodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boj.study.week24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boj8_3273" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week24.boj8_3273" />
+      <module name="CodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boj.study.week24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj8_3273" />
+        <item itemvalue="Application.boj7_2003" />
         <item itemvalue="Application.boj2_6603" />
         <item itemvalue="Application.boj6_1541" />
         <item itemvalue="Application.boj5_2302" />
-        <item itemvalue="Application.boj4_2343" />
-        <item itemvalue="Application.boj3_4485_bfs" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +228,10 @@
       <workItem from="1728564628864" duration="1114000" />
       <workItem from="1728567072203" duration="3476000" />
       <workItem from="1728612203528" duration="1785000" />
-      <workItem from="1728628313377" duration="3220000" />
+      <workItem from="1728628313377" duration="3242000" />
+      <workItem from="1728795898878" duration="436000" />
+      <workItem from="1728796338146" duration="1000" />
+      <workItem from="1728880779465" duration="1477000" />
     </task>
     <task id="LOCAL-00009" summary="[코테스터디] 정렬 정리 1/2">
       <created>1706679792104</created>
@@ -573,7 +576,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721003466008</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[boj] SegmentTree 2268" />
     <MESSAGE value="[boj] 분할정복 10830" />
     <MESSAGE value="[boj] 분할정복 4779" />
     <MESSAGE value="[boj] 1697(bfs), 17829(분할정복)" />
@@ -616,7 +618,8 @@
     <MESSAGE value="dfs, bfs" />
     <MESSAGE value="DP" />
     <MESSAGE value="그리디" />
-    <option name="LAST_COMMIT_MESSAGE" value="그리디" />
+    <MESSAGE value="study 주석 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="study 주석 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
