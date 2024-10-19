@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="투포인터">
-      <change afterPath="$PROJECT_DIR$/docs/알고리즘 정리/슬라이딩윈도우.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week24/boj1_12891.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week24/boj2_21736.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week24/boj9_10025.java" afterDir="false" />
+    <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="슬라이딩 윈도우, bfs">
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week24/boj3_30804.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week24/boj4_10026.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week24/boj5_6064.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week24/boj6_9019.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/study/week24/lcm_gcd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +76,7 @@
     &quot;Application.boj2_6603.executor&quot;: &quot;Run&quot;,
     &quot;Application.boj6_13549_jy.executor&quot;: &quot;Run&quot;,
     &quot;Application.boj6_1541.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lcm_gcd.executor&quot;: &quot;Run&quot;,
     &quot;Application.snail.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -109,9 +111,9 @@
       <recent name="boj.silver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj2_21736">
-    <configuration name="boj1_12891" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week24.boj1_12891" />
+  <component name="RunManager" selected="Application.boj6_9019">
+    <configuration name="boj3_30804" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week24.boj3_30804" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj2_21736" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week24.boj2_21736" />
+    <configuration name="boj4_10026" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week24.boj4_10026" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj7_2003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week24.boj7_2003" />
+    <configuration name="boj5_6064" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week24.boj5_6064" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +151,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj8_3273" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week24.boj8_3273" />
+    <configuration name="boj6_9019" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week24.boj6_9019" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
@@ -162,8 +164,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj9_10025" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week24.boj9_10025" />
+    <configuration name="lcm_gcd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.study.week24.lcm_gcd" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
@@ -177,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.boj2_21736" />
-        <item itemvalue="Application.boj1_12891" />
-        <item itemvalue="Application.boj9_10025" />
-        <item itemvalue="Application.boj8_3273" />
-        <item itemvalue="Application.boj7_2003" />
+        <item itemvalue="Application.boj6_9019" />
+        <item itemvalue="Application.boj5_6064" />
+        <item itemvalue="Application.lcm_gcd" />
+        <item itemvalue="Application.boj4_10026" />
+        <item itemvalue="Application.boj3_30804" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +236,11 @@
       <workItem from="1728795898878" duration="436000" />
       <workItem from="1728796338146" duration="1000" />
       <workItem from="1728880779465" duration="2314000" />
-      <workItem from="1728972438187" duration="6130000" />
+      <workItem from="1728972438187" duration="6158000" />
+      <workItem from="1729043654324" duration="2835000" />
+      <workItem from="1729226597470" duration="12443000" />
+      <workItem from="1729297876287" duration="65000" />
+      <workItem from="1729298420830" duration="62000" />
     </task>
     <task id="LOCAL-00009" summary="[코테스터디] 정렬 정리 1/2">
       <created>1706679792104</created>
@@ -579,7 +585,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721003466008</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[boj] 분할정복 4779" />
     <MESSAGE value="[boj] 1697(bfs), 17829(분할정복)" />
     <MESSAGE value="[boj] 1446(다익스트라)" />
     <MESSAGE value="[boj] 14889(백트래킹)" />
@@ -622,7 +627,8 @@
     <MESSAGE value="그리디" />
     <MESSAGE value="study 주석 추가" />
     <MESSAGE value="투포인터" />
-    <option name="LAST_COMMIT_MESSAGE" value="투포인터" />
+    <MESSAGE value="슬라이싱 윈도우, bfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="슬라이싱 윈도우, bfs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
