@@ -70,13 +70,12 @@ public class boj_7576_2 {
         }
         return true;
     }
-}
-
-class Tomato {
-    int x, y, days;
-    public Tomato(int x, int y, int days) {
-        this.x = x;
-        this.y = y;
-        this.days = days;
+    static class Tomato {
+        int x, y, days;
+        public Tomato(int x, int y, int days) {
+            this.x = x;
+            this.y = y;
+            this.days = days;
+        }
     }
 }

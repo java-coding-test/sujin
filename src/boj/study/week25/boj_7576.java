@@ -6,7 +6,7 @@ import java.util.*;
 public class boj_7576 {
     static int N, M;
     static int[][] map;
-    static Queue<Point_7576> queue = new LinkedList<>();
+    static Queue<Point> queue = new LinkedList<>();
     static int[] dx = {0, 1, 0, -1};
     static int[] dy = {-1, 0, 1, 0};
     static int count;
@@ -25,7 +25,7 @@ public class boj_7576 {
             for (int j = 0; j < N; j++) {
                 map[i][j] = Integer.parseInt(st.nextToken());
                 if (map[i][j] == 1) {
-                    queue.add(new Point_7576(j, i));
+                    queue.add(new Point(j, i));
                 }
             }
         }
@@ -41,7 +41,7 @@ public class boj_7576 {
     }
 
     public static void bfs() {
-        ArrayList<Queue<Point_7576>> queues = new ArrayList<>();
+        ArrayList<Queue<Point>> queues = new ArrayList<>();
 
         queues.add(queue);
 
@@ -52,7 +52,7 @@ public class boj_7576 {
             queues.add(new LinkedList<>());
 
             while (!queue.isEmpty()) {
-                Point_7576 current = queue.poll();
+                Point current = queue.poll();
                 int x = current.x;
                 int y = current.y;
                 for (int i = 0; i < 4; i++) {
@@ -61,7 +61,7 @@ public class boj_7576 {
                     if (nx >= 0 && nx < N && ny >= 0 && ny < M) {
                         if (map[ny][nx] == 0) {
                             map[ny][nx] = 1;
-                            queues.get(1).add(new Point_7576(nx, ny));
+                            queues.get(1).add(new Point(nx, ny));
                         }
                     }
                 }
@@ -71,7 +71,7 @@ public class boj_7576 {
         }
     }
 
-    public static boolean isAllQueueEmpty(ArrayList<Queue<Point_7576>> queues) {
+    public static boolean isAllQueueEmpty(ArrayList<Queue<Point>> queues) {
         for (int i = 0; i < queues.size(); i++) {
             if (!queues.get(i).isEmpty()) return false;
         }
@@ -87,20 +87,20 @@ public class boj_7576 {
         return true;
     }
 
-    public static void printMap() {
-        for (int i = 0; i < M; i++) {
-            for (int j = 0; j < N; j++) {
-                System.out.print(map[i][j] + " ");
-            }
-            System.out.println();
-        }
-    }
-}
+//    public static void printMap() {
+//        for (int i = 0; i < M; i++) {
+//            for (int j = 0; j < N; j++) {
+//                System.out.print(map[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
+//    }
 
-class Point_7576 {
-    int x, y;
-    Point_7576(int x, int y) {
-        this.x = x;
-        this.y = y;
+    static class Point {
+        int x, y;
+        Point(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
     }
 }
