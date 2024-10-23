@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="week25">
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week25/boj5_14500.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/study/week25/boj6_14503.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/implementation/boj1_21734.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,13 +110,13 @@
       <recent name="boj.silver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj6_14503">
-    <configuration name="boj3_16928" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week25.boj3_16928" />
+  <component name="RunManager" selected="Application.boj_21735">
+    <configuration name="boj1_21734" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.구현.boj1_21734" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.study.week25.*" />
+          <option name="PATTERN" value="boj.구현.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_7576_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.study.week25.boj_7576_2" />
+    <configuration name="boj_21735" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.백트래킹.boj_21735" />
       <module name="CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boj.study.week25.*" />
+          <option name="PATTERN" value="boj.백트래킹.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_21735" />
+        <item itemvalue="Application.boj1_21734" />
         <item itemvalue="Application.boj6_14503" />
         <item itemvalue="Application.boj5_14500" />
         <item itemvalue="Application.boj4_7662" />
-        <item itemvalue="Application.boj3_16928" />
-        <item itemvalue="Application.boj_7576_2" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +241,7 @@
       <workItem from="1729297876287" duration="65000" />
       <workItem from="1729298420830" duration="62000" />
       <workItem from="1729323841288" duration="5346000" />
-      <workItem from="1729500993004" duration="30508000" />
+      <workItem from="1729500993004" duration="32505000" />
     </task>
     <task id="LOCAL-00009" summary="[코테스터디] 정렬 정리 1/2">
       <created>1706679792104</created>
@@ -586,7 +586,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721003466008</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
