@@ -1,4 +1,4 @@
-package boj.백트래킹;
+package boj.BackTracking;
 
 import java.io.*;
 import java.util.*;

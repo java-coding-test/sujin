@@ -1,4 +1,4 @@
-package boj.구현;
+package boj.Implementation;
 
 import java.io.*;
 
