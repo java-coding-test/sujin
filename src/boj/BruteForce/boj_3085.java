@@ -35,6 +35,7 @@ public class boj_3085 {
         bw.write(max + "");
         bw.close();
     }
+
     private static void swap(int x1, int y1, int x2, int y2) {
         String temp = map[x1][y1];
         map[x1][y1] = map[x2][y2];
