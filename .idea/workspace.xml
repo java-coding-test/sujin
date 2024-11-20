@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff839ee0-6824-4adb-83ab-0be6de854009" name="Changes" comment="sliding window">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/BruteForce/boj_1018.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/Implementation/boj_4920.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/Math/boj_1094.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/Stack/boj_10799.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boj/Stack/boj_9012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/BinarySearch/boj_10816.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/BinarySearch/boj_1654.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/BruteForce/boj_2589.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/Implementation/boj_3190.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj/Stack/boj_10799_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj_2467.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj_4358.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boj/BruteForce/boj_3085.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj/BruteForce/boj_3085.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +70,7 @@
     &quot;Application.Main (4).executor&quot;: &quot;Run&quot;,
     &quot;Application.Main (5).executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_.executor&quot;: &quot;Run&quot;,
     &quot;Application.StudyBFS.executor&quot;: &quot;Run&quot;,
     &quot;Application.TopDownDP.executor&quot;: &quot;Run&quot;,
     &quot;Application.boj.step_by_step.bfs.Main.executor&quot;: &quot;Run&quot;,
@@ -82,6 +84,7 @@
     &quot;Application.boj2_6603.executor&quot;: &quot;Run&quot;,
     &quot;Application.boj6_13549_jy.executor&quot;: &quot;Run&quot;,
     &quot;Application.boj6_1541.executor&quot;: &quot;Run&quot;,
+    &quot;Application.boj_3190.executor&quot;: &quot;Run&quot;,
     &quot;Application.lcm_gcd.executor&quot;: &quot;Run&quot;,
     &quot;Application.snail.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -119,102 +122,37 @@
       <recent name="boj.silver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj_1094">
-    <configuration name="boj_1018" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.BruteForce.boj_1018" />
+  <component name="RunManager" selected="Application.boj_16953">
+    <configuration name="boj_16953" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj_16953" />
       <module name="CodingTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_10799" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.Stack.boj_10799" />
+    <configuration name="boj_2467" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj_2467" />
       <module name="CodingTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_1094" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.Math.boj_1094" />
+    <configuration name="boj_2589" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.BruteForce.boj_2589" />
       <module name="CodingTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2559" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.boj_2559" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj_2559" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.boj_2559" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj_2559" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.SlidingWindow_TwoPointer.boj_2559" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.SlidingWindow_TwoPointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj_4920" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.Implementation.boj_4920" />
+    <configuration name="boj_3190" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.Implementation.boj_3190" />
       <module name="CodingTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_5430" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.boj_5430" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj_5430" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.Implementation.boj_5430" />
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.Implementation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj_9012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.Stack.boj_9012" />
+    <configuration name="boj_4358" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj_4358" />
       <module name="CodingTest" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -222,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.boj_1094" />
-        <item itemvalue="Application.boj_1018" />
-        <item itemvalue="Application.boj_9012" />
-        <item itemvalue="Application.boj_10799" />
-        <item itemvalue="Application.boj_4920" />
+        <item itemvalue="Application.boj_16953" />
+        <item itemvalue="Application.boj_4358" />
+        <item itemvalue="Application.boj_2467" />
+        <item itemvalue="Application.boj_3190" />
+        <item itemvalue="Application.boj_2589" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +230,13 @@
       <workItem from="1730192691504" duration="7639000" />
       <workItem from="1730377660471" duration="68000" />
       <workItem from="1730384058761" duration="12922000" />
-      <workItem from="1730534362064" duration="2996000" />
+      <workItem from="1730534362064" duration="3013000" />
+      <workItem from="1730881601664" duration="7980000" />
+      <workItem from="1731035850584" duration="8875000" />
+      <workItem from="1731051183126" duration="9402000" />
+      <workItem from="1731416330103" duration="3542000" />
+      <workItem from="1731562829099" duration="5097000" />
+      <workItem from="1732000587180" duration="3635000" />
     </task>
     <task id="LOCAL-00009" summary="[코테스터디] 정렬 정리 1/2">
       <created>1706679792104</created>
@@ -637,7 +581,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721003466008</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
