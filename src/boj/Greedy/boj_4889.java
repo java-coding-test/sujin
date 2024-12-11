@@ -10,12 +10,10 @@ public class boj_4889 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-
-
         int testCase = 0;
         while (true) {
             String str = br.readLine();
-            if (str.startsWith("--")) {
+            if (str.startsWith("-")) {
                 bw.close();
                 return;
             }
